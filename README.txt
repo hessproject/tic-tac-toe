@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/hessproject/pen/yYMgER.
+A Pen created at CodePen.io. This pen was built with javascript and jQuery, with Jade and Sass
 
  
