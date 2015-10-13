@@ -1,0 +1,23 @@
+body
+	div.container
+		h3#status Press New Game to start
+		div.board
+			table.center
+				tr.top-row
+					td.square.s1(onclick='takeTurn(".s1",1)')
+					td.square.s2(onclick='takeTurn(".s2",2)')
+					td.square.s3(onclick='takeTurn(".s3",3)')
+				tr.mid-row
+					td.square.s4(onclick='takeTurn(".s4",4)')
+					td.square.s5(onclick='takeTurn(".s5",5)')
+					td.square.s6(onclick='takeTurn(".s6",6)')
+				tr.bot-row
+					td.square.s7(onclick='takeTurn(".s7",7)')
+					td.square.s8(onclick='takeTurn(".s8",8)')
+					td.square.s9(onclick='takeTurn(".s9",9)')
+		div.settings
+			h4 How many players?
+				select#players
+					option(value=1) 1
+					option(value=2) 2 
+			button.btn.start(onclick="resetGame()") New Game
